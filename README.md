@@ -38,6 +38,7 @@ The `translate.rb` program may be used like this:
 ```
 ruby translate.rb examples/helloworld.bf > helloworld.tape
 ```
+or
 ```
 cat examples/helloworld.bf | ruby translate.rb > helloworld.tape
 ```
