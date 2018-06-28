@@ -36,10 +36,10 @@ The file `translate.rb` is a program that will automatically translate a Brainfu
 
 The `translate.rb` program may be used like this:
 ```
-ruby translate.rb helloworld.bf > helloworld.tape
+ruby translate.rb examples/helloworld.bf > helloworld.tape
 ```
 ```
-cat helloworld.bf | ruby translate.rb > helloworld.tape
+cat examples/helloworld.bf | ruby translate.rb > helloworld.tape
 ```
 
 
